@@ -15,6 +15,8 @@
 set -x
 set -eo pipefail
 
+echo "Running from RadekCap fork"
+
 mkdir input
 
 export RESULTS_FOLDER=$1/result
